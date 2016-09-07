@@ -1,5 +1,5 @@
 # Code Book
-generated 2016-09-07 19:55:30 during sourcing of `run_analysis.R`
+generated 2016-09-07 20:24:07 during sourcing of `run_analysis.R`
 
 ## Actions performed on data:
 * create data dir `./data`

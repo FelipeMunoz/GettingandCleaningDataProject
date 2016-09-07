@@ -13,7 +13,6 @@ vars <- vars[which(vars!="mergedData")]
 #rm(list = vars)
 debug <- FALSE
 
-log("DEBUGGING: ",debug)
 log("workingDir: `",getwd(),"`")
 
 
@@ -262,5 +261,4 @@ tidyDataCols <- names(tidyData)[3:68]
 for(tdc in tidyDataCols){
   codebook("`",tdc,"`   | the average value for this feature, num (range: -1:1)")
 }
-
 
